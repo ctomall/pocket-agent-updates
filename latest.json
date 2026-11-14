@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.3",
+  "versionCode": 4,
+  "packageName": "app.pocket.agent",
+  "downloadUrl": "https://cdn.jsdelivr.net/gh/ctomall/pocket-agent-updates@main/PocketAgent-1.0.3.apk",
+  "size": 10726096,
+  "sha256": "0d46fdabbbde75e8b564a37896945c7c029d65dcbeb6b12ec2ec2784f9cb35dc",
+  "releaseNotes": "1. 修复设置页长文本换行与滑块样式\n2. OTA 默认清单改为公网地址，开箱即可检查更新\n3. 视觉与交互同 1.0.2",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.3/PocketAgent-1.0.3.apk"
+}
