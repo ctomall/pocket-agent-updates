@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.21",
-  "versionCode": 22,
+  "version": "1.0.22",
+  "versionCode": 23,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.21/PocketAgent-1.0.21.apk",
+  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.22/PocketAgent-1.0.22.apk",
   "size": 22139484,
-  "sha256": "b052c37fadbee73cbfef1da98a0958b3a8613510f85ed4f88263bce5d141b6ec",
-  "releaseNotes": "1. 首页搜索升级为消息全文检索：标题命中显示会话，消息命中显示上下文片段\n2. 搜索结果按时间倒序，点击直接进入对应会话\n3. 片段会去掉 Markdown/LaTeX 标记，便于阅读",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.21/PocketAgent-1.0.21.apk"
+  "sha256": "6e80cc581642f8a9f37a63663d3e41e32f7cf40eed2c71fd4b1b0c1c39638317",
+  "releaseNotes": "1. 搜索结果关键词高亮：命中的 9872 等词以蓝色底突出显示\n2. 高亮只作用于片段，不改变原有排版\n3. 全部大小写不敏感匹配",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.22/PocketAgent-1.0.22.apk"
 }
