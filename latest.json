@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.17",
-  "versionCode": 18,
+  "version": "1.0.18",
+  "versionCode": 19,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.17/PocketAgent-1.0.17.apk",
+  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.18/PocketAgent-1.0.18.apk",
   "size": 22123100,
-  "sha256": "d7a2f396592ec51322fcee19f3d91d3badaef74d2cd2afa06c63c5e352cd800f",
-  "releaseNotes": "1. 资源预览弹窗新增「附到对话」，把 MCP 资源内容作为参考上下文附加到下一条消息\n2. 输入区显示「已附资源：名称」，可随时移除\n3. 发送时自动拼入 [参考资料：名称] 段落，随消息一起发给模型",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.17/PocketAgent-1.0.17.apk"
+  "sha256": "ad511849e182d65671edebf31bb1ec2c6f4e2d698a5c487108d7f8b346a6b843",
+  "releaseNotes": "1. 修复主题切换遗留问题：玻璃按钮/毛玻璃/抽屉改用应用内主题，不再跟随系统\n2. 首页深色背景下强制浅色状态栏与导航栏图标，避免浅色主题下图标不可见\n3. 新增会话导出 Markdown：菜单 → 导出 Markdown，弹窗预览并复制到剪贴板",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.18/PocketAgent-1.0.18.apk"
 }
