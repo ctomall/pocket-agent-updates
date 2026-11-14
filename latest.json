@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.16",
-  "versionCode": 17,
+  "version": "1.0.17",
+  "versionCode": 18,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.16/PocketAgent-1.0.16.apk",
+  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.17/PocketAgent-1.0.17.apk",
   "size": 22123100,
-  "sha256": "32b79cb779c7b2504600683cec638c343b763f2c65dfff0b8e363733bb625d17",
-  "releaseNotes": "1. MCP 快捷指令支持参数：prompts 带 arguments 时先弹出参数表单\n2. 填写后按参数调用 prompts/get，生成文本再填入输入框\n3. 可选参数留空时使用服务端默认值",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.16/PocketAgent-1.0.16.apk"
+  "sha256": "d7a2f396592ec51322fcee19f3d91d3badaef74d2cd2afa06c63c5e352cd800f",
+  "releaseNotes": "1. 资源预览弹窗新增「附到对话」，把 MCP 资源内容作为参考上下文附加到下一条消息\n2. 输入区显示「已附资源：名称」，可随时移除\n3. 发送时自动拼入 [参考资料：名称] 段落，随消息一起发给模型",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.17/PocketAgent-1.0.17.apk"
 }
