@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.3",
-  "versionCode": 4,
+  "version": "1.0.5",
+  "versionCode": 6,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://cdn.jsdelivr.net/gh/ctomall/pocket-agent-updates@main/PocketAgent-1.0.3.apk",
-  "size": 10726096,
-  "sha256": "0d46fdabbbde75e8b564a37896945c7c029d65dcbeb6b12ec2ec2784f9cb35dc",
-  "releaseNotes": "1. 修复设置页长文本换行与滑块样式\n2. OTA 默认清单改为公网地址，开箱即可检查更新\n3. 视觉与交互同 1.0.2",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.3/PocketAgent-1.0.3.apk"
+  "downloadUrl": "https://cdn.jsdelivr.net/gh/ctomall/pocket-agent-updates@main/PocketAgent-1.0.5.apk",
+  "size": 10744460,
+  "sha256": "2950a396f0ee17f72a39a5c23875c8497de5e0926cf6a7e9806d005b8e3aefb5",
+  "releaseNotes": "1. 会话页新增「对话 / 轨迹」切换，轨迹按顺序展示用户、思考、工具调用、工具返回与回答\n2. 代码块支持一键复制，Markdown 新增 LaTeX 公式渲染\n3. 对话加入时间分隔与「回到最新」按钮\n4. OTA：清单检查超时缩短到 20 秒，下载失败自动切换 GitHub 备用地址",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.5/PocketAgent-1.0.5.apk"
 }
