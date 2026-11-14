@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.22",
-  "versionCode": 23,
+  "version": "1.0.23",
+  "versionCode": 24,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.22/PocketAgent-1.0.22.apk",
-  "size": 22139484,
-  "sha256": "6e80cc581642f8a9f37a63663d3e41e32f7cf40eed2c71fd4b1b0c1c39638317",
-  "releaseNotes": "1. 搜索结果关键词高亮：命中的 9872 等词以蓝色底突出显示\n2. 高亮只作用于片段，不改变原有排版\n3. 全部大小写不敏感匹配",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.22/PocketAgent-1.0.22.apk"
+  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.23/PocketAgent-1.0.23.apk",
+  "size": 22155868,
+  "sha256": "6a92c41bec3265af28cecfa8d517bfdab2f17e18ed484545f555ad2cad3387e3",
+  "releaseNotes": "1. 修复设置页「本地工具」写死 4 个的问题，改为真实工具数量\n2. 模型接口卡片补充「模型服务」行与「接口地址」标签，不再只有一段裸 URL\n3. 会话内支持切换模型：更多 → 切换模型，只影响当前会话",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.23/PocketAgent-1.0.23.apk"
 }
