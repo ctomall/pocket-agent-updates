@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.14",
-  "versionCode": 15,
+  "version": "1.0.15",
+  "versionCode": 16,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.14/PocketAgent-1.0.14.apk",
-  "size": 22106716,
-  "sha256": "09ca2fd65a952b3c1c9d892f6ca2ab2a4bd7d2ca9dc469b55ece52d00f438b14",
-  "releaseNotes": "1. MCP 资源：详情页展示 resources/list 清单（名称/URI/MIME）\n2. 点击资源通过 resources/read 读取文本并在弹窗中预览\n3. mock MCP 增加 weather-guide 资源便于离线验证",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.14/PocketAgent-1.0.14.apk"
+  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.15/PocketAgent-1.0.15.apk",
+  "size": 22123100,
+  "sha256": "57f2b4de518dd2c6fa8c174e04e8faa96d3c4b6b85572ae14de3acf63f942c21",
+  "releaseNotes": "1. 插件页支持导出 MCP 配置为 JSON（含服务器、请求头、工具开关），可复制到剪贴板\n2. 支持从剪贴板/文本导入；同名同地址自动跳过重复\n3. 导入后立即刷新工具、指令与资源",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.15/PocketAgent-1.0.15.apk"
 }
