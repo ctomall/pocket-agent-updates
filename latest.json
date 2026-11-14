@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.5",
-  "versionCode": 6,
+  "version": "1.0.6",
+  "versionCode": 7,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://cdn.jsdelivr.net/gh/ctomall/pocket-agent-updates@main/PocketAgent-1.0.5.apk",
+  "downloadUrl": "https://cdn.jsdelivr.net/gh/ctomall/pocket-agent-updates@main/PocketAgent-1.0.6.apk",
   "size": 10744460,
-  "sha256": "2950a396f0ee17f72a39a5c23875c8497de5e0926cf6a7e9806d005b8e3aefb5",
-  "releaseNotes": "1. 会话页新增「对话 / 轨迹」切换，轨迹按顺序展示用户、思考、工具调用、工具返回与回答\n2. 代码块支持一键复制，Markdown 新增 LaTeX 公式渲染\n3. 对话加入时间分隔与「回到最新」按钮\n4. OTA：清单检查超时缩短到 20 秒，下载失败自动切换 GitHub 备用地址",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.5/PocketAgent-1.0.5.apk"
+  "sha256": "f531d5179c69fcc0d9cde0c5705548d6eb4b6e6391679cc89703eac9f41e712a",
+  "releaseNotes": "1. 升级清单改走 GitHub raw，避免 CDN 缓存旧清单；请求带时间戳\n2. 清单检查超时 20 秒，下载失败自动切换 GitHub 备用地址\n3. 轨迹页预览去掉 Markdown 标记，分段控件改为原生灰底样式",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.6/PocketAgent-1.0.6.apk"
 }
