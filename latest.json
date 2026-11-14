@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.19",
-  "versionCode": 20,
+  "version": "1.0.20",
+  "versionCode": 21,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.19/PocketAgent-1.0.19.apk",
-  "size": 22123100,
-  "sha256": "d2597ecdd16dd3536f0730c04ff12bb237e698f08f6fff5e0c9bd1a448c04fc2",
-  "releaseNotes": "1. 工具执行确认：remember 与 MCP 工具在「完全访问」下执行前弹出确认\n2. 支持「拒绝 / 允许一次 / 总是允许」，总是允许会写入永久允许列表\n3. 设置页新增「安全」分组：开关、已允许工具数、清除永久允许",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.19/PocketAgent-1.0.19.apk"
+  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.20/PocketAgent-1.0.20.apk",
+  "size": 22139484,
+  "sha256": "6f7ddbfe87f271710a6469b8f6ef91ebda858fdd85ea82f3c5dcc4a29b0a3272",
+  "releaseNotes": "1. 新增审批记录：设置 → 安全 → 最近审批，显示工具名、允许/拒绝与时间，可清除\n2. 修复发送按钮在深浅色下的配色：跟随主题 primary/onPrimary，禁用态改用 surfaceVariant\n3. 深色/浅色页面走查：设置、会话、插件、详情页背景与文字对比度修正",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.20/PocketAgent-1.0.20.apk"
 }
