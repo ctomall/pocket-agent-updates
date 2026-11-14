@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.7",
-  "versionCode": 8,
+  "version": "1.0.8",
+  "versionCode": 9,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://cdn.jsdelivr.net/gh/ctomall/pocket-agent-updates@main/PocketAgent-1.0.7.apk",
-  "size": 10744460,
-  "sha256": "81805c3f0415e2a83ef08510d7bbce97cedda57dc27d25baa6306fb99d0cb590",
-  "releaseNotes": "1. 升级清单改为 GitHub Release latest 资产，彻底避开分支/CDN 缓存\n2. 保留请求时间戳与 20 秒超时，下载失败自动切换备用地址\n3. 对话轨迹、代码复制、LaTeX 公式与时间分隔等细节同 1.0.6",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.7/PocketAgent-1.0.7.apk"
+  "downloadUrl": "https://cdn.jsdelivr.net/gh/ctomall/pocket-agent-updates@main/PocketAgent-1.0.8.apk",
+  "size": 10780860,
+  "sha256": "baf893afd613373b37274b41a46b8d8b8d7593181b7eacd1690ecfc14f8e87b7",
+  "releaseNotes": "1. 补齐原版左侧栏：点鲸鱼标或从屏幕左缘右滑打开，页面右移露出圆角与阴影\n2. 设置页按原版分组重排：新会话默认配置（Agent 预设 / 默认模型 / 权限）→ 模型接口 → 运行时 → 外观 → 本地存储 → 高级 → 关于\n3. 新增测试连接（请求 /models 校验地址与 Key）、存储空间统计、工具权限（完全访问 / 只读工具 / 仅对话）",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.8/PocketAgent-1.0.8.apk"
 }
