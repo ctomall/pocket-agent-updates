@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.26",
-  "versionCode": 27,
+  "version": "1.0.27",
+  "versionCode": 28,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.26/PocketAgent-1.0.26.apk",
-  "size": 22155868,
-  "sha256": "e90d7ee10aea266866c8d07d2201c6b488c6bffbd95d772612972b1d7a66de36",
-  "releaseNotes": "1. 轨迹页改为原版样式：顶部 Turns/Calls/Steps 统计条、Turn 分组、彩色节点时间轴、USER/THINK/TOOL/ASSIST 标签与编号\n2. 顶栏右上角补充模式胶囊（当前 Agent 预设 + 状态点），点击可切换标准/简洁/专家/自定义\n3. 保留原有更多菜单与会话状态",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.26/PocketAgent-1.0.26.apk"
+  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.27/PocketAgent-1.0.27.apk",
+  "size": 22172252,
+  "sha256": "19874952ea1ea9badaeac86ce7e1c0f09b016dfd20fb9492c1eb84294ed0ec96",
+  "releaseNotes": "1. 设置排版对齐原版 SettingsTypography：17sp、22 行高、关闭字体额外内边距\n2. 开关改为原版 DshSwitch 规格（51×31、20dp 行程、原版蓝色轨道）\n3. 右上角菜单改为圆角卡片 + 阴影，不再与背景文字重叠\n4. 默认字体改为系统字体（与原版一致），内置 Noto 仍可在设置中切换\n5. DshTheme 注入 LocalConfiguration，应用的深浅色覆盖系统配置判断",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.27/PocketAgent-1.0.27.apk"
 }
