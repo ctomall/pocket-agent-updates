@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.10",
-  "versionCode": 11,
+  "version": "1.0.11",
+  "versionCode": 12,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.10/PocketAgent-1.0.10.apk",
-  "size": 22073948,
-  "sha256": "be1cb3dffdd98ae3ba2e1f445a19813a013d0c1f680540afa2874f2f6d91f386",
-  "releaseNotes": "1. 新增「插件」页：本地能力逐项启停（时间/计算器/网页抓取/记忆），未接入能力按原版样式标注\n2. 内置原版 Noto Sans CJK 字体，中文排版不再依赖厂商系统字体\n3. 关闭某个能力后，新会话不再向模型声明该工具",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.10/PocketAgent-1.0.10.apk"
+  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.11/PocketAgent-1.0.11.apk",
+  "size": 22090332,
+  "sha256": "f930234c642674f7696a9eb9cb4a25bb95c5186df9d3c3732fe619fb84c08d7e",
+  "releaseNotes": "1. 插件页支持远程 MCP（Streamable HTTP）：添加/编辑/删除服务器，读取 tools/list 并在会话中调用\n2. 远程工具自动加 mcp_ 前缀，仅在「完全访问」权限与服务器启用时声明给模型\n3. 新增 scripts/mock-mcp.mjs，可在没有真实 MCP 服务时验证完整链路",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.11/PocketAgent-1.0.11.apk"
 }
