@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.11",
-  "versionCode": 12,
+  "version": "1.0.12",
+  "versionCode": 13,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.11/PocketAgent-1.0.11.apk",
-  "size": 22090332,
-  "sha256": "f930234c642674f7696a9eb9cb4a25bb95c5186df9d3c3732fe619fb84c08d7e",
-  "releaseNotes": "1. 插件页支持远程 MCP（Streamable HTTP）：添加/编辑/删除服务器，读取 tools/list 并在会话中调用\n2. 远程工具自动加 mcp_ 前缀，仅在「完全访问」权限与服务器启用时声明给模型\n3. 新增 scripts/mock-mcp.mjs，可在没有真实 MCP 服务时验证完整链路",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.11/PocketAgent-1.0.11.apk"
+  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.12/PocketAgent-1.0.12.apk",
+  "size": 22106716,
+  "sha256": "5fe4901bbb16b801ae1a819edfe83f1ee88c7563619381eaf23448aecbd323a8",
+  "releaseNotes": "1. MCP 服务器支持自定义请求头（如 Authorization: Bearer …），随 initialize / tools/list / tools/call 一起发送\n2. 新增 MCP 服务器详情页：连接状态、请求头脱敏展示、工具清单与 schema、逐个工具启停、编辑/删除\n3. 插件页改为进入详情，添加服务器时可直接填写请求头",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.12/PocketAgent-1.0.12.apk"
 }
