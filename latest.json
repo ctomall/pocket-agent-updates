@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.13",
-  "versionCode": 14,
+  "version": "1.0.14",
+  "versionCode": 15,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.13/PocketAgent-1.0.13.apk",
+  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.14/PocketAgent-1.0.14.apk",
   "size": 22106716,
-  "sha256": "2bc472f1230e4faac689bfe29215570aaaed7f7d6d926b9819b68b122706404b",
-  "releaseNotes": "1. MCP 快捷指令：读取服务端 prompts/list，在会话输入区显示「指令 N」入口\n2. 选择模板后通过 prompts/get 生成文本并填入输入框，可直接发送\n3. 会话打开时自动刷新指令；服务器停用则不出现",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.13/PocketAgent-1.0.13.apk"
+  "sha256": "09ca2fd65a952b3c1c9d892f6ca2ab2a4bd7d2ca9dc469b55ece52d00f438b14",
+  "releaseNotes": "1. MCP 资源：详情页展示 resources/list 清单（名称/URI/MIME）\n2. 点击资源通过 resources/read 读取文本并在弹窗中预览\n3. mock MCP 增加 weather-guide 资源便于离线验证",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.14/PocketAgent-1.0.14.apk"
 }
