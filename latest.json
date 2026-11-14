@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.20",
-  "versionCode": 21,
+  "version": "1.0.21",
+  "versionCode": 22,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.20/PocketAgent-1.0.20.apk",
+  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.21/PocketAgent-1.0.21.apk",
   "size": 22139484,
-  "sha256": "6f7ddbfe87f271710a6469b8f6ef91ebda858fdd85ea82f3c5dcc4a29b0a3272",
-  "releaseNotes": "1. 新增审批记录：设置 → 安全 → 最近审批，显示工具名、允许/拒绝与时间，可清除\n2. 修复发送按钮在深浅色下的配色：跟随主题 primary/onPrimary，禁用态改用 surfaceVariant\n3. 深色/浅色页面走查：设置、会话、插件、详情页背景与文字对比度修正",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.20/PocketAgent-1.0.20.apk"
+  "sha256": "b052c37fadbee73cbfef1da98a0958b3a8613510f85ed4f88263bce5d141b6ec",
+  "releaseNotes": "1. 首页搜索升级为消息全文检索：标题命中显示会话，消息命中显示上下文片段\n2. 搜索结果按时间倒序，点击直接进入对应会话\n3. 片段会去掉 Markdown/LaTeX 标记，便于阅读",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.21/PocketAgent-1.0.21.apk"
 }
