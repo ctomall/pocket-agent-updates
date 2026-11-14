@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.24",
-  "versionCode": 25,
+  "version": "1.0.25",
+  "versionCode": 26,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.24/PocketAgent-1.0.24.apk",
+  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.25/PocketAgent-1.0.25.apk",
   "size": 22155868,
-  "sha256": "c6cc48de530a111d8859851a9fe4575772fa32d80666876abddab96daae7b32d",
-  "releaseNotes": "1. 会话页改为原版交互：对话/轨迹用左右滑动切换，去掉顶部分段标签\n2. 切换时顶部短暂显示两点指示器，对应原版 ConversationPageIndicator\n3. 右上角更多改为锚定下拉菜单，新增「会话状态」（消息数/工具调用/Provider/模型/创建时间）",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.24/PocketAgent-1.0.24.apk"
+  "sha256": "eb415a2dde6cc879dc840e7c884d6edab8f66c53f1ad9e9aaaed737f2c21465b",
+  "releaseNotes": "1. 修复浅色主题字体发虚：内置 Noto 可变字体显式锁定 400 字重\n2. 浅色主题次要文字颜色加深（#6E6E73），提升白底可读性\n3. 新增字体切换：设置 → 外观 → 字体，可选内置 Noto / 系统字体 / 衬线 / 等宽，立即生效并持久化",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.25/PocketAgent-1.0.25.apk"
 }
