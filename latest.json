@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.15",
-  "versionCode": 16,
+  "version": "1.0.16",
+  "versionCode": 17,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.15/PocketAgent-1.0.15.apk",
+  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.16/PocketAgent-1.0.16.apk",
   "size": 22123100,
-  "sha256": "57f2b4de518dd2c6fa8c174e04e8faa96d3c4b6b85572ae14de3acf63f942c21",
-  "releaseNotes": "1. 插件页支持导出 MCP 配置为 JSON（含服务器、请求头、工具开关），可复制到剪贴板\n2. 支持从剪贴板/文本导入；同名同地址自动跳过重复\n3. 导入后立即刷新工具、指令与资源",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.15/PocketAgent-1.0.15.apk"
+  "sha256": "32b79cb779c7b2504600683cec638c343b763f2c65dfff0b8e363733bb625d17",
+  "releaseNotes": "1. MCP 快捷指令支持参数：prompts 带 arguments 时先弹出参数表单\n2. 填写后按参数调用 prompts/get，生成文本再填入输入框\n3. 可选参数留空时使用服务端默认值",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.16/PocketAgent-1.0.16.apk"
 }
