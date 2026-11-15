@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.38",
-  "versionCode": 39,
+  "version": "1.0.39",
+  "versionCode": 40,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.38/PocketAgent-1.0.38.apk",
+  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.39/PocketAgent-1.0.39.apk",
   "size": 22207797,
-  "sha256": "b100f7495a8055860d7985bff3cc85ad387ab075e08bc1c22fef06ac007558e9",
-  "releaseNotes": "1. 点击顶栏「标准模式」胶囊弹出会话状态 Popover：消息数、工具调用、轮次、模型、Provider\n2. Popover 底部保留「切换 Agent 预设…」入口\n3. 移除原来的会话状态弹窗入口（⋯ 菜单仍可打开）",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.38/PocketAgent-1.0.38.apk"
+  "sha256": "5ab4b712600f46bf8d715d26d5cca7c1d86b66a4d388632c1030a7d7e0738883",
+  "releaseNotes": "1. 代码卡新增行号（等宽右对齐，随代码横向滚动）\n2. 超过 320dp 的代码块纵向滚动，行号与代码保持对齐\n3. 复制仍复制纯代码文本",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.39/PocketAgent-1.0.39.apk"
 }
