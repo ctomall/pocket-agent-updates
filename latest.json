@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.50",
-  "versionCode": 51,
+  "version": "1.0.52",
+  "versionCode": 53,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.50/PocketAgent-1.0.50.apk",
-  "size": 60266436,
-  "sha256": "52397b3d6dd632a46f568648d413f535f8e11b33c3c6d84211a9bb669ec128b5",
-  "releaseNotes": "1. 新增「运行模式」设置：远程网关 / 本地模型（BYOK），选择后持久化\n2. 本地模式下首页隐藏「选择主机」，不再显示网关入口\n3. 网关模式行为保持不变；本地模型引擎接入将在下一版完成",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.50/PocketAgent-1.0.50.apk"
+  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.52/PocketAgent-1.0.52.apk",
+  "size": 60266440,
+  "sha256": "3c21d6dce9c079b631fdd0109060bca3fe69971ca14e1fdfe37ea2cee88eda00",
+  "releaseNotes": "1. 外网 OTA 切换到本项目公开清单（GitHub Releases latest.json）\n2. 原版更新器支持 app.pocket.agent 原地覆盖升级\n3. 支持 GitHub Release 兜底检查与 SHA-256 校验",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.52/PocketAgent-1.0.52.apk"
 }
