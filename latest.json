@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.31",
-  "versionCode": 32,
+  "version": "1.0.32",
+  "versionCode": 33,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.31/PocketAgent-1.0.31.apk",
+  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.32/PocketAgent-1.0.32.apk",
   "size": 22191413,
-  "sha256": "02504186d19404fad4ec80c5893e5b2ac6a7fd8a2dffb5b16064a62b6c5e6591",
-  "releaseNotes": "1. 新增「存储空间」子页（对应原版 settings/storage）：总占用、数据库/安装包/缓存/应用文件明细\n2. 支持分别清理已下载安装包与缓存，清理后自动刷新占用\n3. 设置页「存储空间」行改为可进入子页",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.31/PocketAgent-1.0.31.apk"
+  "sha256": "23618cd8564f69c5f213ec648eefc80694e62f84e0eee772e4b5e3f37316837a",
+  "releaseNotes": "1. Markdown 表格升级：按内容自适应列宽、表头底色、行间分隔线、圆角描边与横向滚动\n2. 单元格支持行内加粗/代码/链接，长内容自动换行\n3. 演示数据增加一张三步计算表",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.32/PocketAgent-1.0.32.apk"
 }
