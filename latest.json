@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.35",
-  "versionCode": 36,
+  "version": "1.0.36",
+  "versionCode": 37,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.35/PocketAgent-1.0.35.apk",
+  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.36/PocketAgent-1.0.36.apk",
   "size": 22191413,
-  "sha256": "40b1674a6f9e3253874f97bff92bd2ccacadba36765c367850bb17a88a1381ad",
-  "releaseNotes": "1. 代码卡对齐原版 DshMarkdownCodeCard：9dp 圆角、#E9E9EB/#2C2C2E 底色、语言角标、图标复制\n2. 复制后图标切换为对勾，1.4 秒自动恢复\n3. 长代码行保持横向滚动、不折行",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.35/PocketAgent-1.0.35.apk"
+  "sha256": "d1e6bced93903a9de31729de379a5d08b3f9b2652be025745d8dad09098e32c6",
+  "releaseNotes": "1. 长按消息弹出「消息操作」：预览原文、复制全文、引用到输入框\n2. 引用会以 Markdown 引用块插入输入框，可直接继续编辑或发送\n3. 与工具卡片、代码卡的长按不冲突",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.36/PocketAgent-1.0.36.apk"
 }
