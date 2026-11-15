@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.46",
-  "versionCode": 47,
+  "version": "1.0.47",
+  "versionCode": 48,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.46/PocketAgent-1.0.46.apk",
+  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.47/PocketAgent-1.0.47.apk",
   "size": 30657885,
-  "sha256": "a5b85a348b1f79b90cdc10ae716abcefac49e3149bffd50b136976eee282b2dd",
-  "releaseNotes": "1. 新增 PDF 文档解析（对齐 Cube Agent 的 Word/PDF/Excel 解析）：使用 PDFBox-Android 提取正文\n2. App 启动时初始化 PDFBox 资源，扫描件会提示「没有可提取的文字」\n3. 安装包体积增至约 30MB",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.46/PocketAgent-1.0.46.apk"
+  "sha256": "1db63475704ae8e89eaa430ae03e5cc71d44949a05ab6c43189ad424d4f6cca0",
+  "releaseNotes": "1. 图片附件：输入框「＋」→「选择图片」，系统照片选择器选图后显示缩略图 chip\n2. 图片随消息保存到本地，用户气泡内显示缩略图，点击可全屏预览\n3. 发送时按 OpenAI 多模态格式（text + image_url/base64）提交给支持视觉的模型\n4. 消息表新增 image_path 字段（数据库升级到 v2）",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.47/PocketAgent-1.0.47.apk"
 }
