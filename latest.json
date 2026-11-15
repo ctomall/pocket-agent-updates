@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.27",
-  "versionCode": 28,
+  "version": "1.0.28",
+  "versionCode": 29,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.27/PocketAgent-1.0.27.apk",
+  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.28/PocketAgent-1.0.28.apk",
   "size": 22172252,
-  "sha256": "19874952ea1ea9badaeac86ce7e1c0f09b016dfd20fb9492c1eb84294ed0ec96",
-  "releaseNotes": "1. 设置排版对齐原版 SettingsTypography：17sp、22 行高、关闭字体额外内边距\n2. 开关改为原版 DshSwitch 规格（51×31、20dp 行程、原版蓝色轨道）\n3. 右上角菜单改为圆角卡片 + 阴影，不再与背景文字重叠\n4. 默认字体改为系统字体（与原版一致），内置 Noto 仍可在设置中切换\n5. DshTheme 注入 LocalConfiguration，应用的深浅色覆盖系统配置判断",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.27/PocketAgent-1.0.27.apk"
+  "sha256": "473fd7c84fd3b58a2ba5dd847f72fbef6573e78a4701c10896fafccb2cebd45d",
+  "releaseNotes": "1. 输入区对齐原版 ComposerGlassSurface + ComposerMorphLayout：收起为 42dp 单行，聚焦后展开\n2. 输入框材质改为原版 tint（浅色 #F2F2F7 / 深色 #1C1C1E）、0.7dp 描边与 10dp 阴影\n3. 左侧工具按钮 32dp，发送按钮 42dp；收起时仍保留发送\n4. 展开后工具行显示本地工具、快捷指令、模型与温度",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.28/PocketAgent-1.0.28.apk"
 }
