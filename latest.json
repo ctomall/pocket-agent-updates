@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.39",
-  "versionCode": 40,
+  "version": "1.0.40",
+  "versionCode": 41,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.39/PocketAgent-1.0.39.apk",
+  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.40/PocketAgent-1.0.40.apk",
   "size": 22207797,
-  "sha256": "5ab4b712600f46bf8d715d26d5cca7c1d86b66a4d388632c1030a7d7e0738883",
-  "releaseNotes": "1. 代码卡新增行号（等宽右对齐，随代码横向滚动）\n2. 超过 320dp 的代码块纵向滚动，行号与代码保持对齐\n3. 复制仍复制纯代码文本",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.39/PocketAgent-1.0.39.apk"
+  "sha256": "48b637a8359bbf6f671dd3ab74b72c0fb8cb302aaed136fad5cbfc3c2363bc4b",
+  "releaseNotes": "1. 代码卡新增轻量语法高亮：关键字、字符串、数字与注释分别着色\n2. 深/浅色主题使用不同配色，text 等纯文本保持原样\n3. 配合行号使用，代码块更接近原版观感",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.40/PocketAgent-1.0.40.apk"
 }
