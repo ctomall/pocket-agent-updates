@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.42",
-  "versionCode": 43,
+  "version": "1.0.43",
+  "versionCode": 44,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.42/PocketAgent-1.0.42.apk",
+  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.43/PocketAgent-1.0.43.apk",
   "size": 22207797,
-  "sha256": "6cde417a49a40c3ce868d1cfcffa5f519ca68681fdbfdcf325846c9a2339f433",
-  "releaseNotes": "1. 引用回复改为输入框上方的引用 chip：显示「引用」+ 原文摘要 + ×\n2. 发送时自动拼成 Markdown 引用块，可随时取消引用\n3. 长按消息 → 引用到输入框不再直接改写输入内容",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.42/PocketAgent-1.0.42.apk"
+  "sha256": "f866df25037cd35be8820ad3584c235b9af082e3d41944439ce86221108c12c2",
+  "releaseNotes": "1. Markdown 引用块改为独立卡片：12dp 圆角、浅色底、左侧 3dp 强调条\n2. 引用文字 14sp/22，与正文区分\n3. 与引用回复 chip、代码卡、表格样式统一",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.43/PocketAgent-1.0.43.apk"
 }
