@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.62",
-  "versionCode": 63,
+  "version": "1.0.63",
+  "versionCode": 64,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.62/PocketAgent-1.0.62.apk",
+  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.63/PocketAgent-1.0.63.apk",
   "size": 60315592,
-  "sha256": "5ac247e37ff77ca99370ec696ace8b38ac8a718690fdd7070e6dcfe337622557",
-  "releaseNotes": "1. 本地会话列表支持搜索（按标题过滤）\n2. 新会话自动用首条消息生成标题（最多 20 字）\n3. 搜索与重命名/删除操作共存",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.62/PocketAgent-1.0.62.apk"
+  "sha256": "74fff83c219bc2f78632a9ea90d05f5781f5742e6cda74f961c2bc6cbb7e285d",
+  "releaseNotes": "1. 修复「安装器仍在使用缓存安装包」：重试时清理上次留下的安装租约\n2. 若缓存目录仍被占用，自动改用独立目录下载，不再直接报错\n3. 安装包下载与安装流程保持不变",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.63/PocketAgent-1.0.63.apk"
 }
