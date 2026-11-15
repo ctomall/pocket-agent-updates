@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.63",
-  "versionCode": 64,
+  "version": "1.0.64",
+  "versionCode": 65,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.63/PocketAgent-1.0.63.apk",
-  "size": 60315592,
-  "sha256": "74fff83c219bc2f78632a9ea90d05f5781f5742e6cda74f961c2bc6cbb7e285d",
-  "releaseNotes": "1. 修复「安装器仍在使用缓存安装包」：重试时清理上次留下的安装租约\n2. 若缓存目录仍被占用，自动改用独立目录下载，不再直接报错\n3. 安装包下载与安装流程保持不变",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.63/PocketAgent-1.0.63.apk"
+  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.64/PocketAgent-1.0.64.apk",
+  "size": 60315588,
+  "sha256": "d4955a3df713932c7885a1502977174ba99485374c7291918cfd70e22bf937d4",
+  "releaseNotes": "1. 改为两个隔离空间：首次启动选择「远程网关」或「本地模型」\n2. 本地空间拥有独立设置页（本地模型配置 / 空间切换 / 关于），不出现任何网关入口\n3. 网关空间设置只保留网关相关项，顶部可切换到本地空间\n4. 切换空间会清空任务栈并重启，两套界面与状态互不混用",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.64/PocketAgent-1.0.64.apk"
 }
