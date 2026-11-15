@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.47",
-  "versionCode": 48,
+  "version": "1.0.48",
+  "versionCode": 49,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.47/PocketAgent-1.0.47.apk",
-  "size": 30657885,
-  "sha256": "1db63475704ae8e89eaa430ae03e5cc71d44949a05ab6c43189ad424d4f6cca0",
-  "releaseNotes": "1. 图片附件：输入框「＋」→「选择图片」，系统照片选择器选图后显示缩略图 chip\n2. 图片随消息保存到本地，用户气泡内显示缩略图，点击可全屏预览\n3. 发送时按 OpenAI 多模态格式（text + image_url/base64）提交给支持视觉的模型\n4. 消息表新增 image_path 字段（数据库升级到 v2）",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.47/PocketAgent-1.0.47.apk"
+  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.48/PocketAgent-1.0.48.apk",
+  "size": 30662789,
+  "sha256": "722b0fa51bfb24219605ff1c2c30e3cf9c48fb64a56824ed5debc32190418979",
+  "releaseNotes": "1. 视觉回退到原版：首页品牌改为原生 whaleness HARNESS 字标（dsh_whaleness_wordmark_dark），移除自拟「口袋智能体 / LOCAL」文字徽标\n2. 首页会话列表恢复原版单段「最近会话」，移除自拟的「刚刚/今天/昨天/更早」日期分组与展开更多\n3. 功能对标 Cube Chat（鸿蒙），本轮仅做视觉纠偏，不新增想象功能",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.48/PocketAgent-1.0.48.apk"
 }
