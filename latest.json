@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.60",
-  "versionCode": 61,
+  "version": "1.0.61",
+  "versionCode": 62,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.60/PocketAgent-1.0.60.apk",
-  "size": 60299208,
-  "sha256": "2a1e9f85aa4bf0f21c303f1cf9d6eb90597b097af1120b8924af95b9e27d5b2b",
-  "releaseNotes": "1. 设置页顺序修正：运行模式在前，本地模型服务紧随其后\n2. 本地模式设置更符合操作顺序（先选模式，再填模型配置）\n3. 网关模式不受影响",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.60/PocketAgent-1.0.60.apk"
+  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.61/PocketAgent-1.0.61.apk",
+  "size": 60315588,
+  "sha256": "0b976cb977953a581e5448d5aca16f1dfcbeb3bc6e1afbfc302027a74bb800b1",
+  "releaseNotes": "1. 本地模式支持工具调用循环：模型调用 → 本地执行 → 结果回传 → 最终回答（最多 3 轮）\n2. 内置工具：联网搜索 web_search、天气 weather（Open-Meteo）、计算器 calculate\n3. 工具执行结果以卡片形式显示在对话中",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.61/PocketAgent-1.0.61.apk"
 }
