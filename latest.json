@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.45",
-  "versionCode": 46,
+  "version": "1.0.46",
+  "versionCode": 47,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.45/PocketAgent-1.0.45.apk",
-  "size": 22207797,
-  "sha256": "85a031bc4af96450846d4208a8316c26ea3859033c2881b427013c649d6f5ac8",
-  "releaseNotes": "1. 文档附件解析（对齐鸿蒙 Cube Agent 的文档解析能力）：Word / Excel / PowerPoint / 纯文本\n2. 从文件导入后自动提取正文（docx 段落、xlsx 单元格、pptx 每页文字），插入输入框\n3. 支持 ≤ 8MB，兼容 Windows/Android 生成的不同 zip 路径分隔符\n4. 新增 DocumentParser 单元测试（4 项）",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.45/PocketAgent-1.0.45.apk"
+  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.46/PocketAgent-1.0.46.apk",
+  "size": 30657885,
+  "sha256": "a5b85a348b1f79b90cdc10ae716abcefac49e3149bffd50b136976eee282b2dd",
+  "releaseNotes": "1. 新增 PDF 文档解析（对齐 Cube Agent 的 Word/PDF/Excel 解析）：使用 PDFBox-Android 提取正文\n2. App 启动时初始化 PDFBox 资源，扫描件会提示「没有可提取的文字」\n3. 安装包体积增至约 30MB",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.46/PocketAgent-1.0.46.apk"
 }
