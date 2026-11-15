@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.30",
-  "versionCode": 31,
+  "version": "1.0.31",
+  "versionCode": 32,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.30/PocketAgent-1.0.30.apk",
+  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.31/PocketAgent-1.0.31.apk",
   "size": 22191413,
-  "sha256": "e258f344cac5cbb940b3a3a23ac8a9b9bddfe8517a65caa26aa1ae01a8927564",
-  "releaseNotes": "1. 首页文案对齐原版：Hero 改为「探索未至之境」，副标题「Deepseek Harness 预览版」，设置按钮改为 52dp\n2. 新增「字体大小」独立子页（对应原版 settings/font-size）：实时预览 + 滑杆 + 恢复默认\n3. 滑杆统一使用原版圆形拇指样式",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.30/PocketAgent-1.0.30.apk"
+  "sha256": "02504186d19404fad4ec80c5893e5b2ac6a7fd8a2dffb5b16064a62b6c5e6591",
+  "releaseNotes": "1. 新增「存储空间」子页（对应原版 settings/storage）：总占用、数据库/安装包/缓存/应用文件明细\n2. 支持分别清理已下载安装包与缓存，清理后自动刷新占用\n3. 设置页「存储空间」行改为可进入子页",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.31/PocketAgent-1.0.31.apk"
 }
