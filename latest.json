@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.56",
-  "versionCode": 57,
+  "version": "1.0.57",
+  "versionCode": 58,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.56/PocketAgent-1.0.56.apk",
-  "size": 60282824,
-  "sha256": "84dd11150a629e45c7c0fa0ae6f1c209defc939f313a628b347b780a1e17308d",
-  "releaseNotes": "1. 修复 GitHub 兜底检查仍使用旧仓库路径导致「未提供可安装 APK」\n2. 国内清单改为 gh-proxy 直连 raw，避免 jsDelivr 缓存滞后\n3. 下载优先国内代理，失败自动回退 GitHub",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.56/PocketAgent-1.0.56.apk"
+  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.57/PocketAgent-1.0.57.apk",
+  "size": 60299208,
+  "sha256": "d3f8b83e32737405f8c06731e50eba0c0fae7768c3c5a438de381ed7b7a7d614",
+  "releaseNotes": "1. 本地模式接入本地引擎：OpenAI 兼容接口流式对话，不经过网关\n2. 本地会话列表与消息存储（local_chat.db），与网关会话完全分离\n3. 本地模式首页显示本地会话与配置摘要；网关模式不受影响",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.57/PocketAgent-1.0.57.apk"
 }
