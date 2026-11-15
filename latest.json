@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.48",
-  "versionCode": 49,
+  "version": "1.0.49",
+  "versionCode": 50,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.48/PocketAgent-1.0.48.apk",
-  "size": 30662789,
-  "sha256": "722b0fa51bfb24219605ff1c2c30e3cf9c48fb64a56824ed5debc32190418979",
-  "releaseNotes": "1. 视觉回退到原版：首页品牌改为原生 whaleness HARNESS 字标（dsh_whaleness_wordmark_dark），移除自拟「口袋智能体 / LOCAL」文字徽标\n2. 首页会话列表恢复原版单段「最近会话」，移除自拟的「刚刚/今天/昨天/更早」日期分组与展开更多\n3. 功能对标 Cube Chat（鸿蒙），本轮仅做视觉纠偏，不新增想象功能",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.48/PocketAgent-1.0.48.apk"
+  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.49/PocketAgent-1.0.49.apk",
+  "size": 60266440,
+  "sha256": "80fabb35f2e14f5daa2d299e2f5ca8e10edad0c7f36b999a2e0a18a4c1885470",
+  "releaseNotes": "1. 切换为原版开源工程（Whaleness Harness / dsh-mobile androidApp）直接构建，视觉与交互不再仿制\n2. 补齐 Tailscale AAR（Go + gomobile）后，原版 androidApp 可在本机构建\n3. 沿用 app.pocket.agent 包名与签名，老版本可直接覆盖升级（versionCode 50）\n4. 注意：原版使用自己的存储结构，旧版本会话数据尚未迁移，后续补一次性导入",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.49/PocketAgent-1.0.49.apk"
 }
