@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.52",
-  "versionCode": 53,
+  "version": "1.0.53",
+  "versionCode": 54,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.52/PocketAgent-1.0.52.apk",
-  "size": 60266440,
-  "sha256": "3c21d6dce9c079b631fdd0109060bca3fe69971ca14e1fdfe37ea2cee88eda00",
-  "releaseNotes": "1. 外网 OTA 切换到本项目公开清单（GitHub Releases latest.json）\n2. 原版更新器支持 app.pocket.agent 原地覆盖升级\n3. 支持 GitHub Release 兜底检查与 SHA-256 校验",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.52/PocketAgent-1.0.52.apk"
+  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.53/PocketAgent-1.0.53.apk",
+  "size": 60282820,
+  "sha256": "5979f169511d0892ced7ddbc55014d1cc2f88ada15639634ae5369949dc99a0a",
+  "releaseNotes": "1. 本地模式下隐藏 Mobile Gateway / Tailscale / DSH Host 分组\n2. 本地模式显示「本地模型服务」配置：接口地址 / 模型 ID / API Key / 保存\n3. 本地配置与网关配置完全分离，互不影响",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.53/PocketAgent-1.0.53.apk"
 }
