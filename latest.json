@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.53",
-  "versionCode": 54,
+  "version": "1.0.55",
+  "versionCode": 56,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.53/PocketAgent-1.0.53.apk",
+  "downloadUrl": "https://ghproxy.net/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.55/PocketAgent-1.0.55.apk",
   "size": 60282820,
-  "sha256": "5979f169511d0892ced7ddbc55014d1cc2f88ada15639634ae5369949dc99a0a",
-  "releaseNotes": "1. 本地模式下隐藏 Mobile Gateway / Tailscale / DSH Host 分组\n2. 本地模式显示「本地模型服务」配置：接口地址 / 模型 ID / API Key / 保存\n3. 本地配置与网关配置完全分离，互不影响",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.53/PocketAgent-1.0.53.apk"
+  "sha256": "3a6a490b1277a189bffedd4ba615fa7dd178627259209722d5c9b5e11868e710",
+  "releaseNotes": "1. 双通道更新：国内优先 jsDelivr 清单 + ghproxy 下载，失败自动回退 GitHub\n2. APK 下载源可在 ghproxy / GitHub 间自动切换\n3. 设置页更新检查会显示当前通道来源",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.55/PocketAgent-1.0.55.apk"
 }
