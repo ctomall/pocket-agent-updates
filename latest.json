@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.37",
-  "versionCode": 38,
+  "version": "1.0.38",
+  "versionCode": 39,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.37/PocketAgent-1.0.37.apk",
-  "size": 22191413,
-  "sha256": "9404afee93ee469c36a3353418c4158f8a716a665279c9bdf155719264dd2a2f",
-  "releaseNotes": "1. 输入框左侧改为「＋」添加上下文：快捷指令 / 从文件导入文本\n2. 支持选择文本文件（≤200KB）读取内容并插入输入框\n3. 图标与文案对应原版 Composer 的附加入口",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.37/PocketAgent-1.0.37.apk"
+  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.38/PocketAgent-1.0.38.apk",
+  "size": 22207797,
+  "sha256": "b100f7495a8055860d7985bff3cc85ad387ab075e08bc1c22fef06ac007558e9",
+  "releaseNotes": "1. 点击顶栏「标准模式」胶囊弹出会话状态 Popover：消息数、工具调用、轮次、模型、Provider\n2. Popover 底部保留「切换 Agent 预设…」入口\n3. 移除原来的会话状态弹窗入口（⋯ 菜单仍可打开）",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.38/PocketAgent-1.0.38.apk"
 }
