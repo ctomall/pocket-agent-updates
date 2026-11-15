@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.49",
-  "versionCode": 50,
+  "version": "1.0.50",
+  "versionCode": 51,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.49/PocketAgent-1.0.49.apk",
-  "size": 60266440,
-  "sha256": "80fabb35f2e14f5daa2d299e2f5ca8e10edad0c7f36b999a2e0a18a4c1885470",
-  "releaseNotes": "1. 切换为原版开源工程（Whaleness Harness / dsh-mobile androidApp）直接构建，视觉与交互不再仿制\n2. 补齐 Tailscale AAR（Go + gomobile）后，原版 androidApp 可在本机构建\n3. 沿用 app.pocket.agent 包名与签名，老版本可直接覆盖升级（versionCode 50）\n4. 注意：原版使用自己的存储结构，旧版本会话数据尚未迁移，后续补一次性导入",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.49/PocketAgent-1.0.49.apk"
+  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.50/PocketAgent-1.0.50.apk",
+  "size": 60266436,
+  "sha256": "52397b3d6dd632a46f568648d413f535f8e11b33c3c6d84211a9bb669ec128b5",
+  "releaseNotes": "1. 新增「运行模式」设置：远程网关 / 本地模型（BYOK），选择后持久化\n2. 本地模式下首页隐藏「选择主机」，不再显示网关入口\n3. 网关模式行为保持不变；本地模型引擎接入将在下一版完成",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.50/PocketAgent-1.0.50.apk"
 }
