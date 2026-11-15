@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.28",
-  "versionCode": 29,
+  "version": "1.0.29",
+  "versionCode": 30,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.28/PocketAgent-1.0.28.apk",
-  "size": 22172252,
-  "sha256": "473fd7c84fd3b58a2ba5dd847f72fbef6573e78a4701c10896fafccb2cebd45d",
-  "releaseNotes": "1. 输入区对齐原版 ComposerGlassSurface + ComposerMorphLayout：收起为 42dp 单行，聚焦后展开\n2. 输入框材质改为原版 tint（浅色 #F2F2F7 / 深色 #1C1C1E）、0.7dp 描边与 10dp 阴影\n3. 左侧工具按钮 32dp，发送按钮 42dp；收起时仍保留发送\n4. 展开后工具行显示本地工具、快捷指令、模型与温度",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.28/PocketAgent-1.0.28.apk"
+  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.29/PocketAgent-1.0.29.apk",
+  "size": 22175029,
+  "sha256": "196cb65e0277689635f1397ca2a13fb1afb246afd650a20f9187b42d606519e0",
+  "releaseNotes": "1. 会话页新增左侧侧边栏（原版 ConversationSidebar 交互）：顶栏侧栏按钮拉出悬浮面板\n2. 面板包含新建会话、插件、模型服务、在线升级、设置入口，以及最近会话列表（当前会话高亮）\n3. 点击会话直接切换、点击空白处收起，面板带圆角与阴影",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.29/PocketAgent-1.0.29.apk"
 }
