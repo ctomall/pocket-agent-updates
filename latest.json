@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.33",
-  "versionCode": 34,
+  "version": "1.0.34",
+  "versionCode": 35,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.33/PocketAgent-1.0.33.apk",
+  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.34/PocketAgent-1.0.34.apk",
   "size": 22191413,
-  "sha256": "4a3c713b3f46fd5a4408a1d09da7f80da8e8b458bb961bd6bb5557b166849fa4",
-  "releaseNotes": "1. 首页卡片改为原版 WorkspaceCard 结构：标题「本地工作区」+ 模型信息 + 会话数量 + 状态点 + chevron\n2. 点击仍进入模型服务管理，保持信息可达",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.33/PocketAgent-1.0.33.apk"
+  "sha256": "d5452f291763689e939e5d513c168567f31a53f604f21d1fbe85a98540502fa9",
+  "releaseNotes": "1. 首页会话按时间分组：刚刚 / 今天 / 昨天 / 更早，分组标题带数量\n2. 「更早」默认只显示 6 条，可展开显示更多\n3. 搜索模式仍保持「会话 / 消息」两段结果",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.34/PocketAgent-1.0.34.apk"
 }
