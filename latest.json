@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.29",
-  "versionCode": 30,
+  "version": "1.0.30",
+  "versionCode": 31,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.29/PocketAgent-1.0.29.apk",
-  "size": 22175029,
-  "sha256": "196cb65e0277689635f1397ca2a13fb1afb246afd650a20f9187b42d606519e0",
-  "releaseNotes": "1. 会话页新增左侧侧边栏（原版 ConversationSidebar 交互）：顶栏侧栏按钮拉出悬浮面板\n2. 面板包含新建会话、插件、模型服务、在线升级、设置入口，以及最近会话列表（当前会话高亮）\n3. 点击会话直接切换、点击空白处收起，面板带圆角与阴影",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.29/PocketAgent-1.0.29.apk"
+  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.30/PocketAgent-1.0.30.apk",
+  "size": 22191413,
+  "sha256": "e258f344cac5cbb940b3a3a23ac8a9b9bddfe8517a65caa26aa1ae01a8927564",
+  "releaseNotes": "1. 首页文案对齐原版：Hero 改为「探索未至之境」，副标题「Deepseek Harness 预览版」，设置按钮改为 52dp\n2. 新增「字体大小」独立子页（对应原版 settings/font-size）：实时预览 + 滑杆 + 恢复默认\n3. 滑杆统一使用原版圆形拇指样式",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.30/PocketAgent-1.0.30.apk"
 }
