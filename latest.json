@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.59",
-  "versionCode": 60,
+  "version": "1.0.60",
+  "versionCode": 61,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.59/PocketAgent-1.0.59.apk",
+  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.60/PocketAgent-1.0.60.apk",
   "size": 60299208,
-  "sha256": "1f6cec7fa457b66d1e043076fe6921e0aa4fd4593763abcaed7ceba7c41e0589",
-  "releaseNotes": "1. 本地会话支持重命名与删除\n2. 列表新增「⋯」操作入口，弹窗选择操作\n3. 本地模式继续与网关模式完全分离",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.59/PocketAgent-1.0.59.apk"
+  "sha256": "2a1e9f85aa4bf0f21c303f1cf9d6eb90597b097af1120b8924af95b9e27d5b2b",
+  "releaseNotes": "1. 设置页顺序修正：运行模式在前，本地模型服务紧随其后\n2. 本地模式设置更符合操作顺序（先选模式，再填模型配置）\n3. 网关模式不受影响",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.60/PocketAgent-1.0.60.apk"
 }
