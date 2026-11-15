@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.40",
-  "versionCode": 41,
+  "version": "1.0.41",
+  "versionCode": 42,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.40/PocketAgent-1.0.40.apk",
+  "downloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.41/PocketAgent-1.0.41.apk",
   "size": 22207797,
-  "sha256": "48b637a8359bbf6f671dd3ab74b72c0fb8cb302aaed136fad5cbfc3c2363bc4b",
-  "releaseNotes": "1. 代码卡新增轻量语法高亮：关键字、字符串、数字与注释分别着色\n2. 深/浅色主题使用不同配色，text 等纯文本保持原样\n3. 配合行号使用，代码块更接近原版观感",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.40/PocketAgent-1.0.40.apk"
+  "sha256": "d994a39609849f1258032fb16ae35ff7b4a296fcfd74bcba5d78f83588d5a663",
+  "releaseNotes": "1. Markdown 表格支持列对齐：`:---` 左对齐、`:---:` 居中、`---:` 右对齐\n2. 表头与单元格按同一对齐规则渲染\n3. 未标注对齐时默认左对齐",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.41/PocketAgent-1.0.41.apk"
 }
