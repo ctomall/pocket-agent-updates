@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.96",
-  "versionCode": 97,
+  "version": "1.0.97",
+  "versionCode": 98,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.96/PocketAgent-1.0.96.apk",
+  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.97/PocketAgent-1.0.97.apk",
   "size": 60364744,
-  "sha256": "c0e441128ef0dc70fbc1baae4a6b4e016e6b8f28ca6abe08494a41acb3caac81",
-  "releaseNotes": "1. 设置中心顶部新增切换模式入口，可选择本地或已配对的远程主机\n2. 模式面板支持添加网关主机，通过手动输入配对信息添加\n3. 首页与设置共用原主机状态及最后选择，不新增独立模式开关\n4. 当前会话生成中先提示等待或停止，不自动取消。继承模型目录选择、系统提示词与原版 UI 双模式。",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.96/PocketAgent-1.0.96.apk"
+  "sha256": "4f1002536af5696e4d44b932f00ed4ac9d4528ec3f831b3170d19cc4977fabcf",
+  "releaseNotes": "1. 桌面端网关在主机列表、顶部主机名、设置中心与「切换模式」中统一显示为「桌面端 DSH」，不再直接显示机器名\n2. 自定义名称优先；编辑主机页仍保留网关真实名称（如 tony）\n3. 编辑主机页的提示与默认命名同步更新",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.97/PocketAgent-1.0.97.apk"
 }
