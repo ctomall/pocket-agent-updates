@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.68",
-  "versionCode": 69,
+  "version": "1.0.72",
+  "versionCode": 73,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.68/PocketAgent-1.0.68.apk",
-  "size": 60315592,
-  "sha256": "cd9dd318bf0c9d75022d036cafe6d3f3c0e4e183d3af0e1602adf71a782324d3",
-  "releaseNotes": "1. 本地空间新增「协议自检」：读取本地会话与消息，按网关帧结构汇总\n2. 为后续 LocalGatewayTransport（本地数据 → 原版前端）做准备\n3. 版本 1.0.68",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.68/PocketAgent-1.0.68.apk"
+  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.72/PocketAgent-1.0.72.apk",
+  "size": 60331976,
+  "sha256": "a256cddf7cc987e0bf773e4e1e515c1907d98a8414228603df45e45153f03b04",
+  "releaseNotes": "1. 本地空间改为复用原版首页（WorkspaceScreen）：海洋背景、未分组、最近会话与搜索完全一致\n2. 本地会话以 local-* 标识出现在原版列表中，连接状态显示「已连接」\n3. 新增 LocalGatewayTransport / LocalGatewayFrames：本地数据按 hello / sessions / history 协议帧输出\n4. 本地设置新增协议自检与帧生成信息",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.72/PocketAgent-1.0.72.apk"
 }
