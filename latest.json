@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.89",
-  "versionCode": 90,
+  "version": "1.0.91",
+  "versionCode": 92,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.89/PocketAgent-1.0.89.apk",
+  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.91/PocketAgent-1.0.91.apk",
   "size": 60331976,
-  "sha256": "ba0b9d3830a5ecbf48d67a13b7bcbc7bbd9631cf4054ff4827946e0eaa87eead",
-  "releaseNotes": "1. 本地空间改为 App 自行渲染会话（不再经过网关 projection/history 状态机），彻底移除「Loading history」死循环\n2. 本地会话列表与聊天走 LocalChatStore + LocalLlmClient\n3. 本地模型配置可直接在本地设置中填写并保存\n4. 网关空间保持原样",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.89/PocketAgent-1.0.89.apk"
+  "sha256": "c7b2d2f10b8be7b508e5c116fa64a2f3e0e0e98476ab6688bd19c42bc807913b",
+  "releaseNotes": "1. 修复本地会话一直「Loading history」：本地 hello 不再声明 assistant-stream-v1 能力，改走 history 请求路径\n2. 本地订阅会话后主动发起 requestHistory，历史帧可正常关联\n3. 本地空间恢复原版会话页（不再使用自研页面）\n4. 网关空间不受影响",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.91/PocketAgent-1.0.91.apk"
 }
