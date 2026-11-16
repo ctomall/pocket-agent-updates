@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.65",
-  "versionCode": 66,
+  "version": "1.0.66",
+  "versionCode": 67,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.65/PocketAgent-1.0.65.apk",
+  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.66/PocketAgent-1.0.66.apk",
   "size": 60315592,
-  "sha256": "452e4f5263d2782e38f2888e474ef709f5058f72b47d42511eb7135ee64c4a02",
-  "releaseNotes": "1. 修复网关发送失败：设备时区为 GMT+08:00 等非 IANA 格式时统一回退为 UTC，避免 gateway-request-failed\n2. 网关空间新建会话与发送消息恢复正常（已在真实网关验证）\n3. 原有会话浏览、Markdown 渲染不受影响",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.65/PocketAgent-1.0.65.apk"
+  "sha256": "ed51b715aa200069da675ed73630cffa09d202e661ed0b70e4a560f7a4fbcafd",
+  "releaseNotes": "1. 网关错误改为透传主机端原因（如「当前模型不支持图片输入」），不再只显示 gateway-request-failed\n2. 默认网关端口从 3080 修正为 3081，与当前移动网关插件一致",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.66/PocketAgent-1.0.66.apk"
 }
