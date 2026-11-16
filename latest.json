@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.83",
-  "versionCode": 84,
+  "version": "1.0.84",
+  "versionCode": 85,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.83/PocketAgent-1.0.83.apk",
+  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.84/PocketAgent-1.0.84.apk",
   "size": 60331972,
-  "sha256": "6b57a83a7f78bb83c50005305f565abd404bf7ec1852251be733fd1c36848a47",
-  "releaseNotes": "1. 本地空间改用合法 WebSocket 端点连接，冷启动可稳定进入 CONNECTED\n2. 首页主机名显示「Local」（绿点），不再是 tony\n3. history 帧增加 requestId / hasMore / cursor，修复命令历史请求关联\n4. 本地会话列表可正常进入会话页",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.83/PocketAgent-1.0.83.apk"
+  "sha256": "44bbcbed3a45f31ccdf4870db91448a5a3b1d33c8c614dd0468a366efa06f151",
+  "releaseNotes": "1. Local 注册为 AndroidMultiGatewayStore 内置主机档案，与网关主机并列\n2. 首页主机选择器显示 Local（绿点）与已连接状态\n3. 本地会话直接在 hosts.activeGraph 下渲染（3 个 local-* 会话已验证）\n4. 切换到本地不再依赖空间选择页重建 Activity",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.84/PocketAgent-1.0.84.apk"
 }
