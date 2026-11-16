@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.91",
-  "versionCode": 92,
+  "version": "1.0.92",
+  "versionCode": 93,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.91/PocketAgent-1.0.91.apk",
+  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.92/PocketAgent-1.0.92.apk",
   "size": 60331976,
-  "sha256": "c7b2d2f10b8be7b508e5c116fa64a2f3e0e0e98476ab6688bd19c42bc807913b",
-  "releaseNotes": "1. 修复本地会话一直「Loading history」：本地 hello 不再声明 assistant-stream-v1 能力，改走 history 请求路径\n2. 本地订阅会话后主动发起 requestHistory，历史帧可正常关联\n3. 本地空间恢复原版会话页（不再使用自研页面）\n4. 网关空间不受影响",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.91/PocketAgent-1.0.91.apk"
+  "sha256": "d519617588a70e1aefbaed38d85dcdbbb9be56d6f3aafd932467f8323645a835",
+  "releaseNotes": "1. 本地模式彻底断开网关：本地空间不再经过 GatewayRuntime / Mobile Gateway\n2. 本地会话、发送、工具调用（计算器）全部在本机完成，回复支持 Markdown / 代码块 / 公式 / 引用渲染\n3. 网关模式保持原样，不受影响",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.92/PocketAgent-1.0.92.apk"
 }
