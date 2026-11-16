@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.66",
-  "versionCode": 67,
+  "version": "1.0.67",
+  "versionCode": 68,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.66/PocketAgent-1.0.66.apk",
+  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.67/PocketAgent-1.0.67.apk",
   "size": 60315592,
-  "sha256": "ed51b715aa200069da675ed73630cffa09d202e661ed0b70e4a560f7a4fbcafd",
-  "releaseNotes": "1. 网关错误改为透传主机端原因（如「当前模型不支持图片输入」），不再只显示 gateway-request-failed\n2. 默认网关端口从 3080 修正为 3081，与当前移动网关插件一致",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.66/PocketAgent-1.0.66.apk"
+  "sha256": "2ccc58aa2a294562efff48d942c1afca6936941a487c9f27010f0a3456b9a2a5",
+  "releaseNotes": "1. 当网关因「模型不支持图片输入」拒绝时，弹窗改为中文可执行提示，并只保留「知道了」按钮，不再显示无意义的「重新连接」\n2. 其他错误仍保留重新连接入口",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.67/PocketAgent-1.0.67.apk"
 }
