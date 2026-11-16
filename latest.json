@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.94",
-  "versionCode": 95,
+  "version": "1.0.95",
+  "versionCode": 96,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.94/PocketAgent-1.0.94.apk",
-  "size": 60331976,
-  "sha256": "bb743a868acdafe6fc1e9f724ffc6ba925ab157800db2c5fb404b4379a4deea8",
-  "releaseNotes": "修复本地模式下无法添加远程网关：恢复首页右上角原版设备配对按钮，支持扫描二维码或手动输入配对信息。主机列表仅列出内置 Local 和已配对的远程主机；完成配对后即可在同一列表切换。本地与网关继续共用原版 UI。本地文字聊天能力范围与 1.0.93 相同。",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.94/PocketAgent-1.0.94.apk"
+  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.95/PocketAgent-1.0.95.apk",
+  "size": 60364744,
+  "sha256": "06d12459bae6725cf86af951a3c26cbd54a04d386b15902307b08653ac69a151",
+  "releaseNotes": "1. 设置中心重新分层：模式概览、当前模式配置、通用设置，延续原版主题与圆角卡片\n2. 本地模型配置支持拉取模型目录、搜索选择模型并保存；保留手动输入，失败不覆盖已有配置\n3. 新增本地系统提示词：保存后从下一条发送生效，不影响远程主机；取消编辑不保存\n4. 保留 Local/网关双模式、原版主机切换和配对入口。签名保持一致，支持覆盖升级。",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.95/PocketAgent-1.0.95.apk"
 }
