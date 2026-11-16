@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.67",
-  "versionCode": 68,
+  "version": "1.0.68",
+  "versionCode": 69,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.67/PocketAgent-1.0.67.apk",
+  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.68/PocketAgent-1.0.68.apk",
   "size": 60315592,
-  "sha256": "2ccc58aa2a294562efff48d942c1afca6936941a487c9f27010f0a3456b9a2a5",
-  "releaseNotes": "1. 当网关因「模型不支持图片输入」拒绝时，弹窗改为中文可执行提示，并只保留「知道了」按钮，不再显示无意义的「重新连接」\n2. 其他错误仍保留重新连接入口",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.67/PocketAgent-1.0.67.apk"
+  "sha256": "cd9dd318bf0c9d75022d036cafe6d3f3c0e4e183d3af0e1602adf71a782324d3",
+  "releaseNotes": "1. 本地空间新增「协议自检」：读取本地会话与消息，按网关帧结构汇总\n2. 为后续 LocalGatewayTransport（本地数据 → 原版前端）做准备\n3. 版本 1.0.68",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.68/PocketAgent-1.0.68.apk"
 }
