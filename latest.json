@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.93",
-  "versionCode": 94,
+  "version": "1.0.94",
+  "versionCode": 95,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.93/PocketAgent-1.0.93.apk",
+  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.94/PocketAgent-1.0.94.apk",
   "size": 60331976,
-  "sha256": "eb0487f2bfffc615b5a4bd62f636c035ba9d3d22163c50e734ff43906c21a37b",
-  "releaseNotes": "1. 本地与原有网关模式共用原版首页、会话页、输入框与消息组件；在选择主机中切换 Local/远程主机，启动恢复上次选择\n2. 本地后端直接读取手机 SQLite、调用配置的模型 API，不依赖 Mobile Gateway 连接；支持文字收发、流式显示、取消、历史读取、重命名和保留历史的归档\n3. 设置按模式显示：本地模型配置/网关连接配置分离，外观、语言、更新等通用设置共享\n4. 已验证本地设备测试、真实网关收发与双向切换；签名保持一致，支持覆盖升级\n注意：本地模型需自行配置接口、模型 ID 与 API Key。本版新本地后端仅验收文字聊天；不宣称本地附件、工具调用及远程插件功能对等。",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.93/PocketAgent-1.0.93.apk"
+  "sha256": "bb743a868acdafe6fc1e9f724ffc6ba925ab157800db2c5fb404b4379a4deea8",
+  "releaseNotes": "修复本地模式下无法添加远程网关：恢复首页右上角原版设备配对按钮，支持扫描二维码或手动输入配对信息。主机列表仅列出内置 Local 和已配对的远程主机；完成配对后即可在同一列表切换。本地与网关继续共用原版 UI。本地文字聊天能力范围与 1.0.93 相同。",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.94/PocketAgent-1.0.94.apk"
 }
