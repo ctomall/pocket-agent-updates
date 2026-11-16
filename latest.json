@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.78",
-  "versionCode": 79,
+  "version": "1.0.79",
+  "versionCode": 80,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.78/PocketAgent-1.0.78.apk",
+  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.79/PocketAgent-1.0.79.apk",
   "size": 60331976,
-  "sha256": "a7eeeba9c51339b5052607aef4733c7edf630fc83fa680d3e2ddcf70da611835",
-  "releaseNotes": "1. 本地空间复用原版整套产品 UI（DshProductApp：首页 + 会话 + 设置）\n2. 本地 transport 新增 session-create：可用原版「新建会话」创建本地会话\n3. 本地 transport 新增 message：发送内容交给本地模型客户端，回复写入本地会话并回填界面\n4. 修复切换空间闪退（DataStore 单例）与切换后应用退到后台",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.78/PocketAgent-1.0.78.apk"
+  "sha256": "0ac5d0e7c73b9ecc5981c6300631c51d307da00196642f092bc356a779d8b83d",
+  "releaseNotes": "1. 本地 transport 改为进程级单例，避免空间切换后连接被回收\n2. 新建本地会话请求可被正确关联（session-created correlated=true）\n3. 本地空间复用原版产品 UI（DshProductApp）\n4. 修复 DataStore 重复实例导致的闪退",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.79/PocketAgent-1.0.79.apk"
 }
