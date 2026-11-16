@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.73",
-  "versionCode": 74,
+  "version": "1.0.76",
+  "versionCode": 77,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.73/PocketAgent-1.0.73.apk",
+  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.76/PocketAgent-1.0.76.apk",
   "size": 60331976,
-  "sha256": "07930fac90f3ada31d77b120c8d1fe12f4843c138a8f80870a0de944cc9fe397",
-  "releaseNotes": "1. 修复切换本地空间时闪退：本地 graph 使用独立的偏好设置与凭据存储，避免多个 DataStore 争用同一文件\n2. 兼容 AndroidGatewayCredentialStore 的独立存储文件名\n3. 版本 1.0.73",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.73/PocketAgent-1.0.73.apk"
+  "sha256": "03195dca627044451a3b915b070e93d11a5cda92374ec7745d218be22753954f",
+  "releaseNotes": "1. 修复切换本地空间闪退：同一 DataStore 文件在进程内只创建一个实例（多 graph 并存安全）\n2. 修复切换后应用被切到后台：空间切换不再调用 finishAffinity\n3. 本地空间改为复用原版整套产品 UI（DshProductApp：首页 + 会话 + 设置）",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.76/PocketAgent-1.0.76.apk"
 }
