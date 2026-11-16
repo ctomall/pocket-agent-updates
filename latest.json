@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.80",
-  "versionCode": 81,
+  "version": "1.0.83",
+  "versionCode": 84,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.80/PocketAgent-1.0.80.apk",
-  "size": 60331976,
-  "sha256": "403e63d160d5a73c8c03b40ef4f2994cd465faea7bc0d10dffa1657646c87455",
-  "releaseNotes": "1. 本地 graph 改为进程级单例：不再反复 connect，本地会话列表可正常显示\n2. 原版首页显示本地会话（已连接、未分组计数正确）\n3. 本地 transport 单例与 DataStore 单例保留\n4. 版本 1.0.80",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.80/PocketAgent-1.0.80.apk"
+  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.83/PocketAgent-1.0.83.apk",
+  "size": 60331972,
+  "sha256": "6b57a83a7f78bb83c50005305f565abd404bf7ec1852251be733fd1c36848a47",
+  "releaseNotes": "1. 本地空间改用合法 WebSocket 端点连接，冷启动可稳定进入 CONNECTED\n2. 首页主机名显示「Local」（绿点），不再是 tony\n3. history 帧增加 requestId / hasMore / cursor，修复命令历史请求关联\n4. 本地会话列表可正常进入会话页",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.83/PocketAgent-1.0.83.apk"
 }
