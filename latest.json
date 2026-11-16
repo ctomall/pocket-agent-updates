@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.92",
-  "versionCode": 93,
+  "version": "1.0.93",
+  "versionCode": 94,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.92/PocketAgent-1.0.92.apk",
+  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.93/PocketAgent-1.0.93.apk",
   "size": 60331976,
-  "sha256": "d519617588a70e1aefbaed38d85dcdbbb9be56d6f3aafd932467f8323645a835",
-  "releaseNotes": "1. 本地模式彻底断开网关：本地空间不再经过 GatewayRuntime / Mobile Gateway\n2. 本地会话、发送、工具调用（计算器）全部在本机完成，回复支持 Markdown / 代码块 / 公式 / 引用渲染\n3. 网关模式保持原样，不受影响",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.92/PocketAgent-1.0.92.apk"
+  "sha256": "eb0487f2bfffc615b5a4bd62f636c035ba9d3d22163c50e734ff43906c21a37b",
+  "releaseNotes": "1. 本地与原有网关模式共用原版首页、会话页、输入框与消息组件；在选择主机中切换 Local/远程主机，启动恢复上次选择\n2. 本地后端直接读取手机 SQLite、调用配置的模型 API，不依赖 Mobile Gateway 连接；支持文字收发、流式显示、取消、历史读取、重命名和保留历史的归档\n3. 设置按模式显示：本地模型配置/网关连接配置分离，外观、语言、更新等通用设置共享\n4. 已验证本地设备测试、真实网关收发与双向切换；签名保持一致，支持覆盖升级\n注意：本地模型需自行配置接口、模型 ID 与 API Key。本版新本地后端仅验收文字聊天；不宣称本地附件、工具调用及远程插件功能对等。",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.93/PocketAgent-1.0.93.apk"
 }
