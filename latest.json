@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.84",
-  "versionCode": 85,
+  "version": "1.0.89",
+  "versionCode": 90,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.84/PocketAgent-1.0.84.apk",
-  "size": 60331972,
-  "sha256": "44bbcbed3a45f31ccdf4870db91448a5a3b1d33c8c614dd0468a366efa06f151",
-  "releaseNotes": "1. Local 注册为 AndroidMultiGatewayStore 内置主机档案，与网关主机并列\n2. 首页主机选择器显示 Local（绿点）与已连接状态\n3. 本地会话直接在 hosts.activeGraph 下渲染（3 个 local-* 会话已验证）\n4. 切换到本地不再依赖空间选择页重建 Activity",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.84/PocketAgent-1.0.84.apk"
+  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.89/PocketAgent-1.0.89.apk",
+  "size": 60331976,
+  "sha256": "ba0b9d3830a5ecbf48d67a13b7bcbc7bbd9631cf4054ff4827946e0eaa87eead",
+  "releaseNotes": "1. 本地空间改为 App 自行渲染会话（不再经过网关 projection/history 状态机），彻底移除「Loading history」死循环\n2. 本地会话列表与聊天走 LocalChatStore + LocalLlmClient\n3. 本地模型配置可直接在本地设置中填写并保存\n4. 网关空间保持原样",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.89/PocketAgent-1.0.89.apk"
 }
