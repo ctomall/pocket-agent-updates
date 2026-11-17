@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.110",
-  "versionCode": 111,
+  "version": "1.0.111",
+  "versionCode": 112,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.110/PocketAgent-1.0.110.apk",
-  "size": 60449201,
-  "sha256": "1574f1398072dc4e7f9e9cdb95223261867c4a9e96987f01356d21828842d6b2",
-  "releaseNotes": "本地图片消息持久化到私有 no-backup 目录，聊天气泡复用原版缩略图及预览；后续回合保留图片输入；分叉复制图片，删会话清理对应文件。旧版只存图片标记的消息无法恢复原图。",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.110/PocketAgent-1.0.110.apk"
+  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.111/PocketAgent-1.0.111.apk",
+  "size": 60449197,
+  "sha256": "67a6139272fe07228a216b8fca9e2392dff393eac45274d3bfe2060fbf1b84c1",
+  "releaseNotes": "本地模型服务设置增加只读连接与工具兼容自检；分别报告可用、工具不兼容、鉴权或网络错误。测试不执行模型工具。",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.111/PocketAgent-1.0.111.apk"
 }
