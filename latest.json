@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.98",
-  "versionCode": 99,
+  "version": "1.0.99",
+  "versionCode": 100,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.98/PocketAgent-1.0.98.apk",
+  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.99/PocketAgent-1.0.99.apk",
   "size": 60415473,
-  "sha256": "eb8a06e4b36f99a61184d8c604a693e1fcb66adcd9746420ebdfaa0f22930220",
-  "releaseNotes": "1. 本地模式补齐设备能力：日历、提醒、定位与地图、音乐、照片、闹钟接入本地工具，写入类操作执行前确认\n2. 本地附件与多模态：引用回复、文本文件、图片发送\n3. 首页支持按会话正文搜索本地内容，命中显示摘要\n4. 本地语音输入走系统识别，识别结果直接进草稿\n5. 新增本地审批与模型提问（ask_user）\n6. 新增本地工作区目录授权与 workspace.list / workspace.read 工具\n7. 本地消息可编辑、可重新生成；工具调用记录成轨迹；会话状态显示真实轮次与步骤；新增 /help、/clear、/rename、/fork、/stats 斜杠命令与子会话分叉",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.98/PocketAgent-1.0.98.apk"
+  "sha256": "d6bac18a8ef3468a71525886b6300bf1f77a439eff9f72eafe1ff07610fd5f44",
+  "releaseNotes": "1. 本地子智能体：新增 subagent 工具，在独立子会话里真实执行子任务并把结果回给主会话\n2. 会话分叉与斜杠命令（/help、/clear、/rename、/fork、/stats）继续可用",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.99/PocketAgent-1.0.99.apk"
 }
