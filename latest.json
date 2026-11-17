@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.106",
-  "versionCode": 107,
+  "version": "1.0.107",
+  "versionCode": 108,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.106/PocketAgent-1.0.106.apk",
+  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.107/PocketAgent-1.0.107.apk",
   "size": 60432817,
-  "sha256": "98b4fa885899620d8f90fffa3494d259614a6491ed33f56443b7837c12024dc1",
-  "releaseNotes": "旧版与 Android 12+ 备份／设备迁移规则排除本地模型配置和密文文件；启动时提前迁移旧版 API Key，失败不删除旧值。已存在于外部的历史备份副本无法由 App 清除。",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.106/PocketAgent-1.0.106.apk"
+  "sha256": "56bec09fa7297f11e2c2b3ffb0837751f9f4f54ff16071faa9a6358bad2c8131",
+  "releaseNotes": "本地聊天原版轨迹页展示真实用户输入、助手回复及工具结果；不伪造耗时与 token。两台 Android 模拟器独立配对并同时连接同一真实桌面 DSH 网关，两个设备 ID 在线。",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.107/PocketAgent-1.0.107.apk"
 }
