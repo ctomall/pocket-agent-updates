@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.101",
-  "versionCode": 102,
+  "version": "1.0.102",
+  "versionCode": 103,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.101/PocketAgent-1.0.101.apk",
+  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.102/PocketAgent-1.0.102.apk",
   "size": 60415477,
-  "sha256": "5fbe836a383dcd0b10b65f60870b23f3e7484bca8ca1cf071814cf5472b8acf1",
-  "releaseNotes": "1. 修复本地模式请求被模型服务以 400 拒绝的问题：工具名里的点号（calendar.busy 等）会先转成下划线再发送\n2. 模型回包的工具名按映射还原执行，工具调用与审批照常\n3. 覆盖音乐、照片、闹钟等全部内置本地工具",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.101/PocketAgent-1.0.101.apk"
+  "sha256": "0d105af039c819033da926cb7495df0a3f25a1649a1c84bc9dc080bc3de6f862",
+  "releaseNotes": "1. 修复 Pocket Agent OTA 清单下载源白名单，gh-proxy 与 GitHub 备用地址均可验证并保持包名、哈希、签名核验。\n2. 本地模式隐藏网关专用的插件、定时任务、连接器与新增远程工作区入口。\n3. 本地聊天错误不再误给出「重新连接网关」。",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.102/PocketAgent-1.0.102.apk"
 }
