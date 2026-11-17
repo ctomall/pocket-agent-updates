@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.108",
-  "versionCode": 109,
+  "version": "1.0.109",
+  "versionCode": 110,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.108/PocketAgent-1.0.108.apk",
-  "size": 60449197,
-  "sha256": "e8073674ed445eab28ace95d8779215e4a35aacbbfd60c4699f5bee906deec79",
-  "releaseNotes": "本地会话新增复用原版团队样式的子会话入口及弹层；按父会话筛选子任务，可打开对应会话；明确区别于网关 Agent Team。",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.108/PocketAgent-1.0.108.apk"
+  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.109/PocketAgent-1.0.109.apk",
+  "size": 60449201,
+  "sha256": "0262e432a352c22a16f20b2b869ad8e54c7b11a573c701357f79552aba01145e",
+  "releaseNotes": "本地子智能体的模型流式请求在主任务停止时取消并记录子会话状态；模型服务失败时子会话保留失败原因，主会话收到失败工具结果。",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.109/PocketAgent-1.0.109.apk"
 }
