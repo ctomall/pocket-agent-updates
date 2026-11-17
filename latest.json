@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.103",
-  "versionCode": 104,
+  "version": "1.0.104",
+  "versionCode": 105,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.103/PocketAgent-1.0.103.apk",
-  "size": 60415477,
-  "sha256": "c86b9a220f51e59e91a290f5408a175117b395f68d13e08f8009b62db92cb3c0",
-  "releaseNotes": "双主机绑定和数据隔离模拟器回归：相同会话/工作区 ID 不串数据，离线重试保持状态，删除主机不影响其他主机；保留原版主机选择样式。双手机同时连接真实网关尚待独立验收。",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.103/PocketAgent-1.0.103.apk"
+  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.104/PocketAgent-1.0.104.apk",
+  "size": 60431861,
+  "sha256": "0ac80bf98b9778dcad2df9fc59ef7e68f405c0a99d1f8f4f7cdbccec51f2f6aa",
+  "releaseNotes": "本地聊天复用原版工作区文件弹层，支持 SAF 授权目录及子目录浏览、文本预览、交给其他 App 打开；校验持久读权限并阻止相对路径越界。云端模型读取本地文件时，设置页明确提示内容会传给模型服务。",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.104/PocketAgent-1.0.104.apk"
 }
