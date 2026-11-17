@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.112",
-  "versionCode": 113,
+  "version": "1.0.113",
+  "versionCode": 114,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.112/PocketAgent-1.0.112.apk",
+  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.113/PocketAgent-1.0.113.apk",
   "size": 60449201,
-  "sha256": "4215b93bc356745906c25fac7549c3ca54ff7bedb3d085fe214a545694011c71",
-  "releaseNotes": "本地模型 API Key 密文更新改用 Android AtomicFile；中断写入后可恢复旧密钥，不会先删除旧密文导致丢失。",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.112/PocketAgent-1.0.112.apk"
+  "sha256": "37e339043f57502f20a317809fe997e3a5bd8a723ab07a48a3031f1c957d9c93",
+  "releaseNotes": "模型兼容自检不仅检查 HTTP 2xx，还验证 choices/message 聊天响应结构；HTTP 200 的 HTML、错误 JSON 和空 choices 不再误报可用。",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.113/PocketAgent-1.0.113.apk"
 }
