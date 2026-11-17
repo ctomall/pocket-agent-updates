@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.100",
-  "versionCode": 101,
+  "version": "1.0.101",
+  "versionCode": 102,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.100/PocketAgent-1.0.100.apk",
+  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.101/PocketAgent-1.0.101.apk",
   "size": 60415477,
-  "sha256": "c8f4d9dbc92a4a8d6c249ab2b0a79847c26e648bcbb761d6ae3b3d3acd5e5508",
-  "releaseNotes": "1. 修复本地模式请求失败被静默吞掉的问题：模型服务连不上时现在会明确提示原因\n2. 错误提示改为可排查的中文说明：无法连接模型服务（附接口地址）、401 鉴权失败、404 地址错误\n3. 本地后端未就绪时给出明确提示，不再落到网关连接状态",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.100/PocketAgent-1.0.100.apk"
+  "sha256": "5fbe836a383dcd0b10b65f60870b23f3e7484bca8ca1cf071814cf5472b8acf1",
+  "releaseNotes": "1. 修复本地模式请求被模型服务以 400 拒绝的问题：工具名里的点号（calendar.busy 等）会先转成下划线再发送\n2. 模型回包的工具名按映射还原执行，工具调用与审批照常\n3. 覆盖音乐、照片、闹钟等全部内置本地工具",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.101/PocketAgent-1.0.101.apk"
 }
