@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.107",
-  "versionCode": 108,
+  "version": "1.0.108",
+  "versionCode": 109,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.107/PocketAgent-1.0.107.apk",
-  "size": 60432817,
-  "sha256": "56bec09fa7297f11e2c2b3ffb0837751f9f4f54ff16071faa9a6358bad2c8131",
-  "releaseNotes": "本地聊天原版轨迹页展示真实用户输入、助手回复及工具结果；不伪造耗时与 token。两台 Android 模拟器独立配对并同时连接同一真实桌面 DSH 网关，两个设备 ID 在线。",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.107/PocketAgent-1.0.107.apk"
+  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.108/PocketAgent-1.0.108.apk",
+  "size": 60449197,
+  "sha256": "e8073674ed445eab28ace95d8779215e4a35aacbbfd60c4699f5bee906deec79",
+  "releaseNotes": "本地会话新增复用原版团队样式的子会话入口及弹层；按父会话筛选子任务，可打开对应会话；明确区别于网关 Agent Team。",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.108/PocketAgent-1.0.108.apk"
 }
