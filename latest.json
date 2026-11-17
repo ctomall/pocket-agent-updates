@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.111",
-  "versionCode": 112,
+  "version": "1.0.112",
+  "versionCode": 113,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.111/PocketAgent-1.0.111.apk",
-  "size": 60449197,
-  "sha256": "67a6139272fe07228a216b8fca9e2392dff393eac45274d3bfe2060fbf1b84c1",
-  "releaseNotes": "本地模型服务设置增加只读连接与工具兼容自检；分别报告可用、工具不兼容、鉴权或网络错误。测试不执行模型工具。",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.111/PocketAgent-1.0.111.apk"
+  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.112/PocketAgent-1.0.112.apk",
+  "size": 60449201,
+  "sha256": "4215b93bc356745906c25fac7549c3ca54ff7bedb3d085fe214a545694011c71",
+  "releaseNotes": "本地模型 API Key 密文更新改用 Android AtomicFile；中断写入后可恢复旧密钥，不会先删除旧密文导致丢失。",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.112/PocketAgent-1.0.112.apk"
 }
