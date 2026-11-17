@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.109",
-  "versionCode": 110,
+  "version": "1.0.110",
+  "versionCode": 111,
   "packageName": "app.pocket.agent",
-  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.109/PocketAgent-1.0.109.apk",
+  "downloadUrl": "https://gh-proxy.com/https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.110/PocketAgent-1.0.110.apk",
   "size": 60449201,
-  "sha256": "0262e432a352c22a16f20b2b869ad8e54c7b11a573c701357f79552aba01145e",
-  "releaseNotes": "本地子智能体的模型流式请求在主任务停止时取消并记录子会话状态；模型服务失败时子会话保留失败原因，主会话收到失败工具结果。",
-  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.109/PocketAgent-1.0.109.apk"
+  "sha256": "1574f1398072dc4e7f9e9cdb95223261867c4a9e96987f01356d21828842d6b2",
+  "releaseNotes": "本地图片消息持久化到私有 no-backup 目录，聊天气泡复用原版缩略图及预览；后续回合保留图片输入；分叉复制图片，删会话清理对应文件。旧版只存图片标记的消息无法恢复原图。",
+  "githubDownloadUrl": "https://github.com/ctomall/pocket-agent-updates/releases/download/v1.0.110/PocketAgent-1.0.110.apk"
 }
